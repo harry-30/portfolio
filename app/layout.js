@@ -1,22 +1,23 @@
-import { Inter } from "next/font/google";
+import { Inter, Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["400", "500", "700"],
+const bricolage_grotesque = Bricolage_Grotesque({
+    variable: "--font-bri",
+    subsets: ["latin"],
+    weight: ["400", "500", "700"],
 });
 
 export const metadata = {
-  title: "Harry Duong",
+    title: "Harry Duong",
+    description: "Portfolio"
 };
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className={`${inter.className} antialiased`}>
-        {children}
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body className={`${bricolage_grotesque.className} scroll-smooth antialiased`}>
+                {children}
+            </body>
+        </html>
+    );
 }

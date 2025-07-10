@@ -5,10 +5,12 @@
   --foreground: #1f1f1f;
 }
 
-@theme {
+@theme inline {
   --color-custom-primary:#1f1f1f;
   --color-custom-text:   #d1cfc0;
   --color-custom-accent: #4eaacc;
+  --color-custom-secondary: #353535;
+  --font-main: var(--font-bri);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +18,12 @@
     --background: #1f1f1f;
     --foreground: #ededed;
   }
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 body {

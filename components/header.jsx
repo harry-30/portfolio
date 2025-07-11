@@ -28,7 +28,7 @@ export default function Header() {
                 </h2>
 
                 <p className="mt-4 max-w-xs leading-normal text-custom-text">
-                    I design immersive web experiences or whatever idk I'll think of something to put here.
+                    Design immersive web experiences.
                 </p>
 
                 <nav className="nav hidden lg:block">

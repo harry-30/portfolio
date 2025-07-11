@@ -14,7 +14,7 @@ export default function About() {
 
             <div>
                 <p className="mb-4 text-custom-text">
-                    I began coding in grade 11 and have since mastered languages like Python, Java, JavaScript, HTML, MySQL, C, BASIC, R, and MIPS Assembly. Through internships and personal projects, I’ve designed and built full-stack web applications from the ground up and developed a keen eye for problem-solving and user-centered design.
+                    I began coding in grade 11 and have since mastered languages like Python, Java, JavaScript, HTML, MySQL, C, R. Through internships and personal projects, I’ve designed and built full-stack web applications from the ground up and developed a keen eye for problem-solving and user-centered design.
                 </p>
                 <p className="text-custom-text">
                     As an aspiring newly graduated full-stack developer, I leverage AI and LLM technologies—fine-tuning language models and building custom RAG pipelines—to automate workflows and deliver intelligent web experiences. My strong foundation in statistical modeling and machine learning enables me to tackle complex data challenges and build scalable solutions.

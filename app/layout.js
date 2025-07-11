@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`${bricolage_grotesque.className} scroll-smooth antialiased`}>
+            <body className={`${bricolage_grotesque.className} scroll-smooth`}>
                 {children}
             </body>
         </html>

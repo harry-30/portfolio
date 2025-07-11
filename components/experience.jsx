@@ -1,3 +1,4 @@
+// components/Experience.jsx
 'use client';
 
 import Card from './Card';
@@ -16,56 +17,29 @@ export default function Experience() {
             <ol className="group/list space-y-12">
                 <li>
                     <Card
-                        time="Sept 2024 – Present"
-                        role="idk"
-                        company="Amazing Company"
-                        link="https://www.youtube.com/"
-                        description="Building full-stack AI web applications, integrating LLM-powered features and real-time data pipelines."
+                        time="May 2023 – Aug 2024"
+                        role="Software Engineer Intern"
+                        company="myBlueprint (Toronto)"
+                        link="https://myblueprint.ca"
+                        description="Built and maintained React & TypeScript features for a digital education platform serving 1 M daily users, including a multi-year course scheduler that streamlined academic planning for 6,500+ schools."
                     />
                 </li>
                 <li>
                     <Card
-                        time="Sept 2024 – Present"
-                        role="idk"
-                        company="Amazing Company"
-                        link="https://www.youtube.com/"
-                        description="Building full-stack AI web applications, integrating LLM-powered features and real-time data pipelines."
+                        time="Sept 2022 – Dec 2022"
+                        role="Frontend Developer"
+                        company="Sayyara.io (Toronto)"
+                        link="https://github.com/csc301-fall-2022/team-project-9-sayyara-t"
+                        description="Developed the React + TypeScript front end with Material UI for a car-care matchmaking app, leading UI/UX for landing pages and real-time chat interfaces."
                     />
                 </li>
                 <li>
                     <Card
-                        time="Sept 2024 – Present"
-                        role="idk"
-                        company="Amazing Company"
-                        link="https://www.youtube.com/"
-                        description="Building full-stack AI web applications, integrating LLM-powered features and real-time data pipelines."
-                    />
-                </li>
-                <li>
-                    <Card
-                        time="Sept 2024 – Present"
-                        role="idk"
-                        company="Amazing Company"
-                        link="https://www.youtube.com/"
-                        description="Building full-stack AI web applications, integrating LLM-powered features and real-time data pipelines."
-                    />
-                </li>
-                <li>
-                    <Card
-                        time="Sept 2024 – Present"
-                        role="idk"
-                        company="Amazing Company"
-                        link="https://www.youtube.com/"
-                        description="Building full-stack AI web applications, integrating LLM-powered features and real-time data pipelines."
-                    />
-                </li>
-                <li>
-                    <Card
-                        time="Sept 2024 – Present"
-                        role="idk"
-                        company="Amazing Company"
-                        link="https://www.youtube.com/"
-                        description="Building full-stack AI web applications, integrating LLM-powered features and real-time data pipelines."
+                        time="May 2022 – Aug 2022"
+                        role="Software Engineer Intern"
+                        company="FPT Software (Hanoi)"
+                        link="https://www.fptsoftware.com"
+                        description="Implemented 80+ JavaScript/HTML front-end features and supported Java Spring Boot & MySQL backend for a medical insurance platform used by Singapore’s largest healthcare provider."
                     />
                 </li>
             </ol>

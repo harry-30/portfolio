@@ -44,7 +44,7 @@ export default function ThreeScene() {
       '/models/snake.glb',
       (gltf) => {
         const model = gltf.scene;
-        model.scale.set(2, 2, 2);
+        model.scale.set(2.2, 2.2, 2.2);
         model.rotation.y = -Math.PI / 2;
         scene.add(model);
 

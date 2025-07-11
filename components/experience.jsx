@@ -1,7 +1,7 @@
 // components/Experience.jsx
 'use client';
 
-import Card from './Card';
+import Card from './card';
 
 export default function Experience() {
     return (

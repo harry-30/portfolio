@@ -16,7 +16,7 @@ export default function Projects() {
             <ul className="group/list space-y-12">
                 <li>
                     <Project
-                        link="/projects/something"
+                        link="/projects/owoll"
                         project_name="OwOLL"
                         project_description="OwOLL streamlines UX research with a RAG-powered insights engine and interactive React Flow mind maps—visualizing data and generating actionable recommendations in seconds."
                         image_path="/owoll.png"
@@ -25,7 +25,7 @@ export default function Projects() {
                 </li>
                 <li>
                     <Project
-                        link="/projects/something"
+                        link="/projects/pseudo"
                         project_name="PseudoPitch"
                         project_description="PseudoPitch fuses Probabilistic Nearest Neighbors with pseudo-labeling and tailored smoothing to deliver interpretable, well-calibrated probability estimates of baseball pitch outcomes—even in low-data regimes—outperforming traditional baselines."
                         image_path="/pseudopitch.jpg"
@@ -34,7 +34,7 @@ export default function Projects() {
                 </li>
                 <li>
                     <Project
-                        link="/projects/something"
+                        link="/projects/sayyara"
                         project_name="Sayyara"
                         project_description="Sayyara is a startup-ready, Uber-style car-care platform handed over to the Sayyara team—instantly pairing drivers with vetted mechanics and powering a smooth, real-time chat interface for diagnostics, quotes, and booking appointments."
                         image_path="/sayyara.png"

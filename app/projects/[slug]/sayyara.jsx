@@ -25,7 +25,7 @@ export default function Sayyara() {
                         Our Scope
                     </h2>
                 </div>
-                <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     Our Scope
                 </h2>
                 <ul className="list-disc pl-6 space-y-2">
@@ -46,7 +46,7 @@ export default function Sayyara() {
                         Demo
                     </h2>
                 </div>
-                <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     Demo of Sayyara
                 </h2>
                 <div className="aspect-[16/9] w-full">
@@ -71,7 +71,7 @@ export default function Sayyara() {
                         Structure
                     </h2>
                 </div>
-                <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     How It Works
                 </h2>
                 <div className="space-y-4 text-lg">

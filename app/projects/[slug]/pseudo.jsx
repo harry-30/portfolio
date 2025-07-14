@@ -20,7 +20,7 @@ export default function PseudoPitch() {
                         Project Overview
                     </h2>
                 </div>
-                <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     Project Overview
                 </h2>
                 <p className="text-lg">
@@ -31,7 +31,17 @@ export default function PseudoPitch() {
                     estimates.
                 </p>
             </div>
-            <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+            {/* Structure of the Project */}
+            <div>
+                <div
+                    className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-custom-primary/75 px-6 py-5 backdrop-blur
+                               md:-mx-12 md:px-12 lg:relative lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+                >
+                    <h2 className="text-sm font-bold uppercase tracking-widest text-custom-text lg:sr-only">
+                        Methodology
+                    </h2>
+                </div>
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     Methodology
                 </h2>
                 <div className="space-y-4 text-lg text-custom-text">
@@ -59,6 +69,7 @@ export default function PseudoPitch() {
                         as a Python module with scikit-learn API compatibility.
                     </p>
                 </div>
+            </div>
             {/* Presentation Video */}
             <div>
                 <div
@@ -69,7 +80,7 @@ export default function PseudoPitch() {
                         Presentation
                     </h2>
                 </div>
-                <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     OUSAC 2025 Presentation
                 </h2>
                 <div className="aspect-[16/9] w-full">
@@ -82,7 +93,6 @@ export default function PseudoPitch() {
                     />
                 </div>
             </div>
-
             {/* Paper Embed */}
             <div>
                 <div
@@ -93,7 +103,7 @@ export default function PseudoPitch() {
                         Conference Paper
                     </h2>
                 </div>
-                <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     Conference Paper
                 </h2>
                 <div className="w-full h-[800px]">
@@ -103,18 +113,6 @@ export default function PseudoPitch() {
                         frameBorder="0"
                         className="w-full h-full rounded"
                     />
-                </div>
-            </div>
-
-            {/* Structure of the Project */}
-            <div>
-                <div
-                    className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-custom-primary/75 px-6 py-5 backdrop-blur
-                               md:-mx-12 md:px-12 lg:relative lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
-                >
-                    <h2 className="text-sm font-bold uppercase tracking-widest text-custom-text lg:sr-only">
-                        Methodology
-                    </h2>
                 </div>
             </div>
         </div>

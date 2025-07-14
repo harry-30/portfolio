@@ -17,7 +17,7 @@ export default function OwOLL() {
                         Project Overview
                     </h2>
                 </div>
-                <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     Project Overview
                 </h2>
                 <p className="text-lg">
@@ -38,7 +38,7 @@ export default function OwOLL() {
                         Demo
                     </h2>
                 </div>
-                <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     Demo of OwOLL
                 </h2>
                 <div className="aspect-[16/9] w-full">
@@ -62,7 +62,7 @@ export default function OwOLL() {
                         Structure
                     </h2>
                 </div>
-                <h2 className="text-2xl font-semibold mb-4 text-custom-text">
+                <h2 className="hidden lg:block text-2xl font-semibold mb-4 text-custom-text">
                     Structure of the Project
                 </h2>
                 <div className="space-y-4 text-lg text-custom-text">

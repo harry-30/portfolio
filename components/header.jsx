@@ -26,8 +26,8 @@ export default function Header() {
                 <h1
                     className={`text-4xl sm:text-5xl font-bold tracking-tight ${playfair.className}`}
                 >
-                    <span className="text-custom-accent">Harry</span>{' '}
-                    <span className="text-custom-text">Duong_</span>
+                    <span className="text-custom-accent italic">Harry</span>{' '}
+                    <span className="text-custom-text italic">Duong_</span>
                 </h1>
 
                 <h2 className="mt-3 text-lg font-bold tracking-tight text-custom-text sm:text-xl">

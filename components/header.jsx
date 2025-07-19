@@ -2,9 +2,16 @@
 
 import Link from 'next/link';
 import { EB_Garamond } from 'next/font/google';
+import { Playfair_Display } from 'next/font/google';
 
-const ebGaramond = EB_Garamond({
-    variable: '--font-garamond',
+// const ebGaramond = EB_Garamond({
+//     variable: '--font-garamond',
+//     subsets: ['latin'],
+//     weight: ['600'],
+// });
+
+const playfair = Playfair_Display({
+    variable: '--font-playfair',
     subsets: ['latin'],
     weight: ['700'],
 });
@@ -17,10 +24,10 @@ export default function Header() {
         >
             <div>
                 <h1
-                    className={`text-4xl sm:text-5xl font-bold tracking-tight ${ebGaramond.className}`}
+                    className={`text-4xl sm:text-5xl font-bold tracking-tight ${playfair.className}`}
                 >
-                    <span className="text-custom-accent italic">Harry</span>{' '}
-                    <span className="text-custom-text">Duong</span>
+                    <span className="text-custom-accent">Harry</span>{' '}
+                    <span className="text-custom-text">Duong_</span>
                 </h1>
 
                 <h2 className="mt-3 text-lg font-bold tracking-tight text-custom-text sm:text-xl">
